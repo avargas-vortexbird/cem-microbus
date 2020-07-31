@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<base href="http://oficinavirtualmp.coomeva.com.co:80/saludmp-ws/">
+		<title>Microbús | Medicina Prepagada</title>
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="keywords" content="salud medicina prepagada,validacion derechos coomeva medicina prepagada,afiliados asociados a la cooperativa coomeva">
+		<meta http-equiv="description" content="saludmp-ws">
+		<link rel="shortcut icon" href="https://medicinaprepagada.coomeva.com.co/info/coomeva/web/medicina_prepagada/img/favicon.png">
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	</head>
+
+	<body >
+	<img alt="Coomeva Medicina Prepagada" src="https://medicinaprepagada.coomeva.com.co/medicina_prepagada/info/coomeva/media/bloque699.png"><br><br/>  
+	saludmp-ws: Implementacion de servicios de integracion para usuarios afiliados a planes de asociados a la cooperativa coomeva.<br/>
+	y validacion de derechos de acceso a los servicios de coomeva medicina prepagada y cuentas bancarias. 
+	<br/>
+	<br/>
+	<br/>
+	<table border="1">
+	<tr>
+		<td>URLs (Spec JAX-WS)</td>
+		<td>Descripcion</td>
+	</tr>
+	<tr>
+		<td>Afiliados</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/EnterpriseCustomer?wsdl">saludmp-ws/EnterpriseCustomer?wsdl</a></td>
+		<td>Consulta de Clientes/Afiliados/Asociados de empresas del grupo Coomeva</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSConsultaPlanesMp?wsdl">saludmp-ws/WSConsultaPlanesMp?wsdl</a></td>
+		<td>Listado de planes de cada asociado</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSDerechosAccesoMP?wsdl">saludmp-ws/WSDerechosAccesoMP?wsdl</a></td>
+		<td>Validacion derechos de acceso</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSAfiliadosMP?wsdl">saludmp-ws/WSAfiliadosMP?wsdl</a></td>
+		<td>Afiliados</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSAfiliadosContratantesMP?wsdl">saludmp-ws/WSAfiliadosContratantesMP?wsdl</a></td>
+		<td>Afiliados Contratantes</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSConsultaEstadoCuentaMp?wsdl">saludmp-ws/WSConsultaEstadoCuentaMp?wsdl</a></td>
+		<td>Consulta Estado Cuenta - implementacion para realizar la consulta del saldo del estado de cuenta actual a proveedores</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSConsultaEstadoCuentaMpCoomeva?wsdl">saludmp-ws/WSConsultaEstadoCuentaMpCoomeva?wsdl</a></td>
+		<td>Consulta Estado Cuenta - implementacion para realizar la consulta del saldo del estado de cuenta actual para uso exclusivo de Coomeva</td>
+	</tr>
+	<tr>
+		<td>Servicios Generales</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSBancos?wsdl">saludmp-ws/WSBancos?wsdl</a></td>
+		<td>Validacion cuentas bancarias</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSPinosOnline?wsdl">saludmp-ws/WSPinosOnline?wsdl</a></td>
+		<td>Asignaci�n de Pinos - Fidelizacion de campa�as Online</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSconsultaSemanasSgsss?wsdl">saludmp-ws/WSconsultaSemanasSgsss?wsdl</a></td>
+		<td>Consulta de semanas cotizadas al SGSSS</td>
+	</tr>
+	
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSconsultaCredencialesUsuario?wsdl">saludmp-ws/WSconsultaCredencialesUsuario?wsdl</a></td>
+		<td>Consulta detalle de cabecera y todas las credenciales de usuario</td>
+	</tr>
+	
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSconsultaPrimaNivelada?wsdl">saludmp-ws/WSconsultaPrimaNivelada?wsdl</a></td>
+		<td>Consulta si un asociado puede adquirir el beneficio de Prima Nivelada</td>
+	</tr>
+	
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSValidaInformacion?wsdl">saludmp-ws/WSValidaInformacion?wsdl</a></td>
+		<td>Validacion de todos los datos que se registren en los sitemas de informacion</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSConsultaNumeroFactura?wsdl">saludmp-ws/WSConsultaNumeroFactura?wsdl</a> [ELIMINADO]</td>
+		<td>Consulta los numeros de facturas disponibles a nivel nacional y centro</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSActualzacionEstadoTercero?wsdl">saludmp-ws/WSActualzacionEstadoTercero?wsdl</a></td>
+		<td>Actualiza en SICEF el estado de un tercero</td>
+	</tr>
+	<tr>
+		<td>Profilemanager y Certificador</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSValidacionIdentidadAplicacionMP?wsdl">saludmp-ws/WSValidacionIdentidadAplicacionMP?wsdl</a></td>
+		<td>Consulta y valida las preguntas de validacion de identidad de un usuario</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSAdministracionLink?wsdl">saludmp-ws/WSAdministracionLink?wsdl</a></td>
+		<td>Genrador de Link</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSCertificador?wsdl">saludmp-ws/WSCertificador?wsdl</a></td>
+		<td>Certificador Web</td>
+	</tr>
+	<tr>
+		<td>Comprobantes Base</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSComprobanteBase?wsdl">saludmp-ws/WSComprobanteBase?wsdl</a></td>
+		<td>Comprobante Base I C E</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSComprobanteBaseExt?wsdl">saludmp-ws/WSComprobanteBaseExt?wsdl</a></td>
+		<td>Comprobante Base I C E Extendido</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSAutenticacionOficinaVirtual?wsdl">saludmp-ws/WSAutenticacionOficinaVirtual?wsdl</a></td>
+		<td>Autenticacion Oficina Virtual</td>
+	</tr>
+	
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSAutenticacionOficinaConsultaRoles?wsdl">saludmp-ws/WSAutenticacionOficinaConsultaRoles?wsdl</a></td>
+		<td>Consulta de roles de usuarios registrados en el profile de MP por aplicacion</td>
+	</tr>
+	
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSEstadoCuentaFam?wsdl">saludmp-ws/WSEstadoCuentaFam?wsdl</a></td>
+		<td>Envio de notificacion de activacion del servicio de estado de cuenta familiar</td>
+	</tr>
+	<tr>
+		<td>IVR</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSConsultaServiciosIVR?wsdl">saludmp-ws/WSConsultaServiciosIVR?wsdl</a></td>
+		<td>Consulta de los planes de Servicio del IVR</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSTransaccionIVR?wsdl">saludmp-ws/WSTransaccionIVR?wsdl</a></td>
+		<td>Servicio transaccional para la gestion de autorizaciones con Cadena  IVR</td>
+	</tr>
+	<tr>
+		<td>Proveedores ERP</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/erp/WSProveedoresERP?wsdl">saludmp-ws/erp/WSProveedoresERP?wsdl</a></td>
+		<td>Servicio de disponibilidad de proveedores en el ERP corporativo</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSProveedores?wsdl">saludmp-ws/WSProveedores?wsdl</a></td>
+		<td>Servicio de disponibilidad de proveedores</td>
+	</tr>
+	<tr>
+		<td>Core Facturacion</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSCoreFactura?wsdl">saludmp-ws/WSCoreFactura?wsdl</a> [ELIMINADO]</td>
+		<td>Servicio para generar Encabezado y Detalle de Facturaci�n</td>
+	</tr>
+	<tr>
+		<td>Core Salud Oral</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/saludoral/WSCoreSaludOral?wsdl">saludoral/WSCoreSaludOral?wsdl</a></td>
+		<td>Servicio para gestionar la linea de Salud Oral</td>
+	</tr>
+	<tr>
+		<td>Servicio RCP Liquidador</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/rcp-liquidador-ws/WSLiquidacion?wsdl">rcp-liquidador-ws/WSLiquidacion?wsdl</a></td>
+		<td>Servicio para gestionar la liquidacion de Decreto 383</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/rcp-liquidador-ws/WSEliminacionCertificado?wsdl">rcp-liquidador-ws/WSEliminacionCertificado?wsdl</a></td>
+		<td>Servicio para eliminar un certificado de un prestador espec�fico</td>
+	</tr>
+	<tr>
+		<td>Plataforma Firma Digital</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/plataforma-firma/FirmaDigitalServices">plataforma-firma/FirmaDigitalServices?idDocumento=xxxxx&realNamePdf=EM_xx_xx.pdf&remoteHost=xxxx</a></td>
+		<td>Servlet para la inicio de transaccion de firma digital</td>
+	</tr>
+	<tr>
+		<td>Plataforma Robots</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/WSRobotGoanyrun?wsdl">saludmp-ws/WSRobotGoanyrun?wsdl</a></td>
+		<td>Componente encargado de ejecutar un proyecto robot de la plataforma goanywhere y de registrar la invocacion y respuesta del mismo.</td>
+	</tr>
+	<tr>
+		<td>URLs (Spec JAX-RS) Servicios Tipo Restful</td>
+		<td>Descripcion</td>
+	</tr>
+	<tr>
+		<td><a href="http://oficinavirtualmp.coomeva.com.co/saludmp-ws/jax-rs/application.wadl">saludmp-ws/jax-rs/application.wadl</a></td>
+		<td>Descriptor de todos los servicios restful del microbus.</td>
+	</tr>
+	</table>
+	<br>Aplicacion Empresarial de Coomeva Medicina Prepagada.<br>Cali, Colombia 2011.<br/>
+	Todos los derechos reservados.
+	</body>
+</html>
